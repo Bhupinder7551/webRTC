@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.sub_container{
+width: 70%;
+margin-left: 15rem;
+position: relative;
+}
+h1{
+    
+    display: flex;
+    justify-content:center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+video{   
+    width:80%;
+    height: 100%;
+    background-color: rgb(179, 179, 179);
+}
+img{
+    right:11rem;
+    position:absolute;
+    width: 10rem;
+    height: 8rem;
+    margin: 1rem;
+    animation-duration: 5s;
+    animation-name: fadeOut;
+    border: 1px solid black;
+}
+@keyframes fadeOut {
+    50% {opacity: 1;}
+    100% {opacity: 0;} 
+ } 
+
+ .playvideo{
+    position:absolute;
+    height: 17rem;
+    width: 25rem;
+    margin: 1rem;
+    
+ }
+ i{
+    padding: 10px 10px;
+    cursor: pointer;
+ }
+ i:hover{
+    background-color: #0d6efd;
+    color: white;
+ }
